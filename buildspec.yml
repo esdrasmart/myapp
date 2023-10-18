@@ -6,8 +6,8 @@ phases:
       python: 3.8
   build:
     commands:
-      - python app.py
-      - pip install coverage      
+      - pip install coverage 
+      - python app.py           
 artifacts:
   files:
     - app.py
