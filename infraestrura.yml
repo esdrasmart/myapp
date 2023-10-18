@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Stack para aplicativo Python
+Resources:
+ MyAppInstance:
+ Type: AWS::EC2::Instance
+ Properties:
+ InstanceType: t2.micro
+ ImageId: ami-AKIA2XOT73PWIBQ66YGV # Substitua pelo ID da AMI desejada
+ KeyName: esdras # Substitua pelo nome do seu par de chaves
