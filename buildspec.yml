@@ -1,7 +1,9 @@
 version: 0.2
+
 phases:
- build:
- commands:
- - python app.py
+  build:
+    commands:
+      - python app.py      
 artifacts:
- files: app.py
+  files:
+    - app.py
